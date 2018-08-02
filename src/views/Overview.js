@@ -25,7 +25,7 @@ class Main extends React.Component {
                       <div className="col-xs-12 col-md-4">
                         <Widget backgroundClass={lazur_bg} 
                                 icon="fa fa-user" 
-                                title="Haj Count" 
+                                title="Pilgrims Count" 
                                 value={this.state.stations.length} />
                 
                 
