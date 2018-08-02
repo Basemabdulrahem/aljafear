@@ -104,7 +104,7 @@ export default class extends React.Component{
                         c.attr("fill","#f00");
                         parent.NotificationSystem.addNotification({
                             title:'Tracking Message',
-                            message: 'Some Infos about the clicked device',
+                            message: 'Some Infos about the selected pilgrims',
                             children:(
                                 <div>
                                     <div className="form-group">
@@ -386,7 +386,7 @@ export default class extends React.Component{
                     c.attr("fill","#f00");
                     parent.NotificationSystem.addNotification({
                         title:'Tracking Message',
-                        message: 'Do you want to track the highlighted device?',
+                        message: 'Do you want to track the highlighted pilgrims?',
                         level: 'warning',
                         autoDismiss:0,
                         dismissible:'both',
@@ -591,7 +591,7 @@ export default class extends React.Component{
                                        {this.state.unassoc_count + this.state.assoc_count}
                                     </h1>
                                     <small>
-                                        Total Devices
+                                        Total Pilgrims
                                     </small>
                                 </div> 
                                 <div className="clearfix"></div>     
