@@ -22,9 +22,7 @@ function generateStation(){
         "y":kaaba_y - distance,
         "circlePath":circlePath,
         "speed": getRandomArbitrary(60,120),
-        "passportId":faker.random.alphaNumeric(),
-        "entryDate":faker.date.soon(20),
-        "leavingDate":faker.date.recent(20)
+        "passportId":faker.random.alphaNumeric(),        
         // "x":1100,
         // "y":370    
     }

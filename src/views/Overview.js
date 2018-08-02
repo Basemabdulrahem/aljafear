@@ -21,7 +21,6 @@ class Main extends React.Component {
     render() {
         return (
             <div className="wrapper wrapper-content animated fadeInRight">
-                <h2 className="text-center"> Yesterday's Statistics</h2>
                 <div className="row">
                       <div className="col-xs-12 col-md-4">
                         <Widget backgroundClass={lazur_bg} 
