@@ -9,7 +9,7 @@ function generateStation(){
     // let y = getRandomArbitrary(310,736);
     let x = getRandomArbitrary(850,1164);
     let y = getRandomArbitrary(310,736);
-    let distance = Math.hypot(x-kaaba_x,y-kaaba_y);    
+    let distance = Math.hypot(x-kaaba_x,y-kaaba_y) + 11;    
     // distance = 50;   
     let circlePath = `${distance}px ${distance}px`;
     return {
