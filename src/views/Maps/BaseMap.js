@@ -118,13 +118,7 @@ export default class extends React.Component{
                                     </div>
                                     <div className="form-group">
                                         <span>Medical history : </span> <label>{v.medical_history}</label>                                                                                        
-                                    </div>
-                                    <div className="form-group">
-                                        <span>Entry Date : </span> <label>{v.entryDate}</label>                                                                                        
-                                    </div>
-                                    <div className="form-group">
-                                        <span>Leave Date : </span> <label>{v.leavingDate}</label>                                                                                        
-                                    </div>                                                                        
+                                    </div>                                                                      
                                     <div className="clearfix"></div>
                                 </div>
                             ),
